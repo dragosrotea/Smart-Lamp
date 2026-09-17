@@ -1,6 +1,6 @@
-# Smart Lamp V2
+# Smart Lamp
 
-Smart Lamp V2 is an Arduino-based university project that uses proximity, ambient-light, sound, and temperature sensors to control an RGB lamp without physical buttons.
+Smart Lamp is an Arduino-based university project that uses proximity, ambient-light, sound, and temperature sensors to control an RGB lamp without physical buttons.
 
 ## Goals
 
