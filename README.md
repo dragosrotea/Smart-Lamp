@@ -1,8 +1,6 @@
 # Smart Lamp V2
 
-Smart Lamp V2 is an independent redesign of an Arduino-based university prototype. It combines proximity, ambient-light, sound, and temperature sensing to control an RGB lamp without physical buttons.
-
-The original concept was developed as a team university project by Raul Modi, Ioan Alexandru Petringel, and Dragos Rotea. This repository contains Dragos Rotea's independently rewritten firmware, documentation, and subsequent improvements.
+Smart Lamp V2 is an Arduino-based university project that uses proximity, ambient-light, sound, and temperature sensors to control an RGB lamp without physical buttons.
 
 ## Goals
 
@@ -65,7 +63,6 @@ flowchart TD
 |   `-- SmartLampV2/
 |       |-- Config.h
 |       `-- SmartLampV2.ino
-|-- .editorconfig
 |-- .gitignore
 `-- README.md
 ```
@@ -90,17 +87,3 @@ The defaults in `Config.h` are starting values based on the original prototype, 
 - `TEMPERATURE_MIN_RAW`
 - `TEMPERATURE_MAX_RAW`
 - `PROXIMITY_ACTIVE_LOW`
-
-## Roadmap
-
-- [x] Independent non-blocking firmware foundation
-- [x] Rising-edge clap detection
-- [x] Serial diagnostics
-- [ ] Validate and calibrate using the physical prototype
-- [ ] Extract hardware-independent control logic for automated tests
-- [ ] Add a documented circuit diagram
-- [ ] Evaluate an ESP32 version with Wi-Fi control
-
-## Project status
-
-The firmware has been statically reviewed but still requires compilation and validation on an Arduino Uno with the original sensor modules.
